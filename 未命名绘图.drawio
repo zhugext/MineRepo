@@ -1,11 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T10:19:13.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="X2rN2YPsS-bfWFl3_dPq" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T11:48:11.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="iI-4Sb_2_G0bhiAqvXrV" version="20.2.1" type="github">
   <diagram id="SGvBYgH1upi2JSEhlb85" name="第 1 页">
-    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z0Mynjtom0AhRNCFa43I-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="310" y="230" width="140" height="140" as="geometry" />
+        <mxCell id="6DSku9rWstxzYZl86iGv-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="60" width="980" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-1" value="UI层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="6DSku9rWstxzYZl86iGv-6">
+          <mxGeometry width="980" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-2" value="IM SDK 1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6DSku9rWstxzYZl86iGv-6">
+          <mxGeometry y="250" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-3" value="IM SDK 2" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6DSku9rWstxzYZl86iGv-6">
+          <mxGeometry x="350" y="250" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-4" value="IM SDK 3" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6DSku9rWstxzYZl86iGv-6">
+          <mxGeometry x="700" y="250" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-5" value="Wrapper" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="6DSku9rWstxzYZl86iGv-6">
+          <mxGeometry y="130" width="980" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-7" value="UI 层 ： 聊天室 样式 &amp;nbsp;Cell 样式" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Architects Daughter;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-9" value="Wrapper ： CellModel 、 Cell 样式、数据加载&amp;amp; 管理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Architects Daughter;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-10" value="SDK : 心跳、消息发送、接受、存储" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DSku9rWstxzYZl86iGv-11" value="消息 -&amp;gt; Model -&amp;gt; Cell&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Architects Daughter;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="625" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
